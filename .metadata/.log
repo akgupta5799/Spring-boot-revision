@@ -1,0 +1,1866 @@
+!SESSION 2024-06-04 11:43:59.863 -----------------------------------------------
+eclipse.buildId=4.22.1.202405011620
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-06-04 11:44:12.512
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-06-04 11:44:12.984
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-06-04 11:44:32.020
+!MESSAGE Logback config file: C:\Users\adarsh\Documents\workspace-spring-tool-suite-4-4.22.1.RELEASE\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.0.20240217-1525.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-06-04 11:44:33.110
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-06-04 11:44:33.110
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-06-04 11:44:33.643
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-06-04 11:44:33.643
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-06-04 11:44:39.805
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\adarsh'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui.workbench 4 0 2024-06-04 11:44:41.405
+!MESSAGE Failed to retrieve Windows Defender status.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to retrieve Windows Defender status.
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.isWindowsDefenderActive(WindowsDefenderConfigurator.java:324)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.runExclusionCheck(WindowsDefenderConfigurator.java:154)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.lambda$0(WindowsDefenderConfigurator.java:101)
+	at org.eclipse.core.runtime.jobs.Job$2.run(Job.java:187)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: Process terminated with unexpected result:
+Passive Mode
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.isWindowsDefenderActive(WindowsDefenderConfigurator.java:321)
+	... 4 more
+!SUBENTRY 1 org.eclipse.ui.workbench 4 0 2024-06-04 11:44:41.407
+!MESSAGE Failed to retrieve Windows Defender status.
+!STACK 0
+java.io.IOException: Process terminated with unexpected result:
+Passive Mode
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.isWindowsDefenderActive(WindowsDefenderConfigurator.java:321)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.runExclusionCheck(WindowsDefenderConfigurator.java:154)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.lambda$0(WindowsDefenderConfigurator.java:101)
+	at org.eclipse.core.runtime.jobs.Job$2.run(Job.java:187)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-04 12:03:28.901
+!MESSAGE Classpath changed for project: firstStsProject
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-04 12:03:28.904
+!MESSAGE Boot project ADDED: firstStsProject
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-04 12:03:28.906
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-04 12:03:29.013
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-06-04 12:03:29.071
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\adarsh\Desktop\My workspace\sts-4.22.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.11.v20240426-1830\jre\bin\javaw.exe
+-cp
+C:\Users\adarsh\Desktop\My workspace\sts-4.22.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.54.0.202405011602\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\adarsh\Desktop\My workspace\sts-4.22.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.54.0.202405011602\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\adarsh\Desktop\My workspace\sts-4.22.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.54.0.202405011602\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/adarsh/Documents/workspace-spring-tool-suite-4-4.22.1.RELEASE/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1717482809069
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-04 12:03:29.073
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-06-04 12:03:29.083
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 17660
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-04 12:03:31.065
+!MESSAGE Classpath changed for project: firstStsProject
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-04 12:03:31.560
+!MESSAGE Classpath changed for project: firstStsProject
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-04 12:04:24.154
+!MESSAGE Classpath changed for project: firstStsProject
+!SESSION 2024-06-04 14:45:43.465 -----------------------------------------------
+eclipse.buildId=4.22.1.202405011620
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-06-04 14:45:56.709
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-06-04 14:45:57.339
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-06-04 14:46:42.353
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-06-04 14:46:43.332
+!MESSAGE Logback config file: C:\Users\adarsh\Documents\workspace-spring-tool-suite-4-4.22.1.RELEASE\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.0.20240217-1525.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-06-04 14:46:44.399
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-06-04 14:46:44.399
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-06-04 14:46:45.232
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-06-04 14:46:45.232
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-06-04 14:46:51.406
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\adarsh\Desktop\My workspace\sts-4.22.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.11.v20240426-1830\jre\bin\javaw.exe
+-cp
+C:\Users\adarsh\Desktop\My workspace\sts-4.22.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.54.0.202405011602\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\adarsh\Desktop\My workspace\sts-4.22.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.54.0.202405011602\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\adarsh\Desktop\My workspace\sts-4.22.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.54.0.202405011602\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/adarsh/Documents/workspace-spring-tool-suite-4-4.22.1.RELEASE/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1717492611404
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-04 14:46:51.408
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-06-04 14:46:51.779
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 4604
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-06-04 14:46:53.574
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\adarsh'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-04 14:46:53.774
+!MESSAGE Boot project ADDED: firstStsProject
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-04 14:46:53.777
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-04 14:46:53.787
+!MESSAGE Started Boot LS process
+
+!ENTRY org.eclipse.ui.workbench 4 0 2024-06-04 14:46:55.323
+!MESSAGE Failed to retrieve Windows Defender status.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to retrieve Windows Defender status.
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.isWindowsDefenderActive(WindowsDefenderConfigurator.java:324)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.runExclusionCheck(WindowsDefenderConfigurator.java:154)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.lambda$0(WindowsDefenderConfigurator.java:101)
+	at org.eclipse.core.runtime.jobs.Job$2.run(Job.java:187)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: Process terminated with unexpected result:
+Passive Mode
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.isWindowsDefenderActive(WindowsDefenderConfigurator.java:321)
+	... 4 more
+!SUBENTRY 1 org.eclipse.ui.workbench 4 0 2024-06-04 14:46:55.325
+!MESSAGE Failed to retrieve Windows Defender status.
+!STACK 0
+java.io.IOException: Process terminated with unexpected result:
+Passive Mode
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.isWindowsDefenderActive(WindowsDefenderConfigurator.java:321)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.runExclusionCheck(WindowsDefenderConfigurator.java:154)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.lambda$0(WindowsDefenderConfigurator.java:101)
+	at org.eclipse.core.runtime.jobs.Job$2.run(Job.java:187)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2024-06-05 11:44:23.739 -----------------------------------------------
+eclipse.buildId=4.22.1.202405011620
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-06-05 11:44:37.129
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-06-05 11:44:37.533
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-06-05 11:44:42.360
+!MESSAGE Logback config file: C:\Users\adarsh\Documents\workspace-spring-tool-suite-4-4.22.1.RELEASE\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.0.20240217-1525.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-06-05 11:44:43.697
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-06-05 11:44:43.697
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-06-05 11:44:44.446
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-06-05 11:44:44.446
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-06-05 11:44:51.249
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\adarsh\Desktop\My workspace\sts-4.22.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.11.v20240426-1830\jre\bin\javaw.exe
+-cp
+C:\Users\adarsh\Desktop\My workspace\sts-4.22.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.54.0.202405011602\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\adarsh\Desktop\My workspace\sts-4.22.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.54.0.202405011602\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\adarsh\Desktop\My workspace\sts-4.22.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.54.0.202405011602\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/adarsh/Documents/workspace-spring-tool-suite-4-4.22.1.RELEASE/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1717568091247
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-05 11:44:51.250
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-06-05 11:44:51.282
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 17612
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-06-05 11:44:53.980
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\adarsh'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-05 11:44:54.158
+!MESSAGE Boot project ADDED: firstStsProject
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-05 11:44:54.160
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-05 11:44:54.165
+!MESSAGE Started Boot LS process
+
+!ENTRY org.eclipse.ui.workbench 4 0 2024-06-05 11:44:55.581
+!MESSAGE Failed to retrieve Windows Defender status.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to retrieve Windows Defender status.
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.isWindowsDefenderActive(WindowsDefenderConfigurator.java:324)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.runExclusionCheck(WindowsDefenderConfigurator.java:154)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.lambda$0(WindowsDefenderConfigurator.java:101)
+	at org.eclipse.core.runtime.jobs.Job$2.run(Job.java:187)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: Process terminated with unexpected result:
+Passive Mode
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.isWindowsDefenderActive(WindowsDefenderConfigurator.java:321)
+	... 4 more
+!SUBENTRY 1 org.eclipse.ui.workbench 4 0 2024-06-05 11:44:55.581
+!MESSAGE Failed to retrieve Windows Defender status.
+!STACK 0
+java.io.IOException: Process terminated with unexpected result:
+Passive Mode
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.isWindowsDefenderActive(WindowsDefenderConfigurator.java:321)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.runExclusionCheck(WindowsDefenderConfigurator.java:154)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.lambda$0(WindowsDefenderConfigurator.java:101)
+	at org.eclipse.core.runtime.jobs.Job$2.run(Job.java:187)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-06-05 11:45:38.121
+!MESSAGE InterruptedException
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.checkMarkerResolution(LSPCodeActionMarkerResolution.java:154)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.getResolutions(LSPCodeActionMarkerResolution.java:101)
+	at org.springframework.tooling.boot.ls.markers.LSPBootCodeActionMarkerResolution.getResolutions(LSPBootCodeActionMarkerResolution.java:25)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.getResolutions(MarkerHelpRegistry.java:393)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.collectMarkerProposals(JavaCorrectionProcessor.java:318)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.collectProposals(JavaCorrectionProcessor.java:277)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.getMarkerAnnotationFixes(ProblemHover.java:154)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.computeCompletionProposals(ProblemHover.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.<init>(ProblemHover.java:74)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover.createAnnotationInfo(ProblemHover.java:178)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover.getHoverInfo2(AbstractAnnotationHover.java:755)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-05 17:33:07.132
+!MESSAGE Classpath changed for project: bootjpaexample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-05 17:33:07.133
+!MESSAGE Boot project ADDED: bootjpaexample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-05 17:33:09.754
+!MESSAGE Classpath changed for project: bootjpaexample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-05 17:33:11.791
+!MESSAGE Classpath changed for project: bootjpaexample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-05 17:33:19.482
+!MESSAGE Classpath changed for project: bootjpaexample
+!SESSION 2024-06-06 15:51:48.157 -----------------------------------------------
+eclipse.buildId=4.22.1.202405011620
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-06-06 15:51:57.466
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-06-06 15:51:58.078
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-06-06 15:52:04.451
+!MESSAGE Logback config file: C:\Users\adarsh\Documents\workspace-spring-tool-suite-4-4.22.1.RELEASE\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.0.20240217-1525.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-06-06 15:52:05.390
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-06-06 15:52:05.390
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-06-06 15:52:05.890
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-06-06 15:52:05.890
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-06-06 15:52:11.020
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\adarsh\Desktop\My workspace\sts-4.22.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.11.v20240426-1830\jre\bin\javaw.exe
+-cp
+C:\Users\adarsh\Desktop\My workspace\sts-4.22.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.54.0.202405011602\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\adarsh\Desktop\My workspace\sts-4.22.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.54.0.202405011602\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\adarsh\Desktop\My workspace\sts-4.22.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.54.0.202405011602\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/adarsh/Documents/workspace-spring-tool-suite-4-4.22.1.RELEASE/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1717669331018
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-06 15:52:11.021
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-06-06 15:52:11.046
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 5440
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-06-06 15:52:13.399
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\adarsh'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-06 15:52:13.615
+!MESSAGE Boot project ADDED: bootjpaexample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-06 15:52:13.617
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-06 15:52:13.628
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-06 15:52:13.629
+!MESSAGE Boot project ADDED: firstStsProject
+
+!ENTRY org.eclipse.ui.workbench 4 0 2024-06-06 15:52:15.078
+!MESSAGE Failed to retrieve Windows Defender status.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to retrieve Windows Defender status.
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.isWindowsDefenderActive(WindowsDefenderConfigurator.java:324)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.runExclusionCheck(WindowsDefenderConfigurator.java:154)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.lambda$0(WindowsDefenderConfigurator.java:101)
+	at org.eclipse.core.runtime.jobs.Job$2.run(Job.java:187)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: Process terminated with unexpected result:
+Passive Mode
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.isWindowsDefenderActive(WindowsDefenderConfigurator.java:321)
+	... 4 more
+!SUBENTRY 1 org.eclipse.ui.workbench 4 0 2024-06-06 15:52:15.083
+!MESSAGE Failed to retrieve Windows Defender status.
+!STACK 0
+java.io.IOException: Process terminated with unexpected result:
+Passive Mode
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.isWindowsDefenderActive(WindowsDefenderConfigurator.java:321)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.runExclusionCheck(WindowsDefenderConfigurator.java:154)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.lambda$0(WindowsDefenderConfigurator.java:101)
+	at org.eclipse.core.runtime.jobs.Job$2.run(Job.java:187)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2024-06-06 16:40:11.300 -----------------------------------------------
+eclipse.buildId=4.22.1.202405011620
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-06-06 16:40:15.379
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-06-06 16:40:16.020
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-06-06 16:40:26.507
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-06-06 16:40:27.095
+!MESSAGE Logback config file: C:\Users\adarsh\Documents\workspace-spring-tool-suite-4-4.22.1.RELEASE\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.0.20240217-1525.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-06-06 16:40:27.720
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-06-06 16:40:27.720
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-06-06 16:40:28.252
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-06-06 16:40:28.252
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-06-06 16:40:32.522
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\adarsh\Desktop\My workspace\sts-4.22.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.11.v20240426-1830\jre\bin\javaw.exe
+-cp
+C:\Users\adarsh\Desktop\My workspace\sts-4.22.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.54.0.202405011602\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\adarsh\Desktop\My workspace\sts-4.22.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.54.0.202405011602\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\adarsh\Desktop\My workspace\sts-4.22.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.54.0.202405011602\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/adarsh/Documents/workspace-spring-tool-suite-4-4.22.1.RELEASE/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1717672232521
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-06 16:40:32.524
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-06-06 16:40:32.698
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 13136
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-06-06 16:40:33.606
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\adarsh'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-06 16:40:33.795
+!MESSAGE Boot project ADDED: bootjpaexample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-06 16:40:33.798
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-06 16:40:33.805
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-06 16:40:33.807
+!MESSAGE Boot project ADDED: firstStsProject
+
+!ENTRY org.eclipse.ui.workbench 4 0 2024-06-06 16:40:35.946
+!MESSAGE Failed to retrieve Windows Defender status.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to retrieve Windows Defender status.
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.isWindowsDefenderActive(WindowsDefenderConfigurator.java:324)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.runExclusionCheck(WindowsDefenderConfigurator.java:154)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.lambda$0(WindowsDefenderConfigurator.java:101)
+	at org.eclipse.core.runtime.jobs.Job$2.run(Job.java:187)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: Process terminated with unexpected result:
+Passive Mode
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.isWindowsDefenderActive(WindowsDefenderConfigurator.java:321)
+	... 4 more
+!SUBENTRY 1 org.eclipse.ui.workbench 4 0 2024-06-06 16:40:35.948
+!MESSAGE Failed to retrieve Windows Defender status.
+!STACK 0
+java.io.IOException: Process terminated with unexpected result:
+Passive Mode
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.isWindowsDefenderActive(WindowsDefenderConfigurator.java:321)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.runExclusionCheck(WindowsDefenderConfigurator.java:154)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.lambda$0(WindowsDefenderConfigurator.java:101)
+	at org.eclipse.core.runtime.jobs.Job$2.run(Job.java:187)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-06 16:52:59.061
+!MESSAGE Classpath changed for project: bootjpaexample
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-06-06 16:54:13.948
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+!SESSION 2024-06-07 09:54:24.075 -----------------------------------------------
+eclipse.buildId=4.22.1.202405011620
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-06-07 09:54:27.569
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-06-07 09:54:28.234
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-06-07 09:57:51.106
+!MESSAGE Logback config file: C:\Users\adarsh\Documents\workspace-spring-tool-suite-4-4.22.1.RELEASE\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.0.20240217-1525.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-06-07 09:57:52.498
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-06-07 09:57:52.498
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-06-07 09:57:53.300
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-06-07 09:57:53.300
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-06-07 09:57:59.836
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\adarsh\Desktop\My workspace\sts-4.22.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.11.v20240426-1830\jre\bin\javaw.exe
+-cp
+C:\Users\adarsh\Desktop\My workspace\sts-4.22.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.54.0.202405011602\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\adarsh\Desktop\My workspace\sts-4.22.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.54.0.202405011602\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\adarsh\Desktop\My workspace\sts-4.22.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.54.0.202405011602\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/adarsh/Documents/workspace-spring-tool-suite-4-4.22.1.RELEASE/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1717734479834
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-07 09:57:59.837
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-06-07 09:57:59.866
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 13476
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-06-07 09:58:02.110
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\adarsh'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-07 09:58:02.264
+!MESSAGE Boot project ADDED: bootjpaexample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-07 09:58:02.265
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-07 09:58:02.270
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-07 09:58:02.272
+!MESSAGE Boot project ADDED: firstStsProject
+
+!ENTRY org.eclipse.ui.workbench 4 0 2024-06-07 09:58:03.790
+!MESSAGE Failed to retrieve Windows Defender status.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to retrieve Windows Defender status.
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.isWindowsDefenderActive(WindowsDefenderConfigurator.java:324)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.runExclusionCheck(WindowsDefenderConfigurator.java:154)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.lambda$0(WindowsDefenderConfigurator.java:101)
+	at org.eclipse.core.runtime.jobs.Job$2.run(Job.java:187)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: Process terminated with unexpected result:
+Passive Mode
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.isWindowsDefenderActive(WindowsDefenderConfigurator.java:321)
+	... 4 more
+!SUBENTRY 1 org.eclipse.ui.workbench 4 0 2024-06-07 09:58:03.792
+!MESSAGE Failed to retrieve Windows Defender status.
+!STACK 0
+java.io.IOException: Process terminated with unexpected result:
+Passive Mode
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.isWindowsDefenderActive(WindowsDefenderConfigurator.java:321)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.runExclusionCheck(WindowsDefenderConfigurator.java:154)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.lambda$0(WindowsDefenderConfigurator.java:101)
+	at org.eclipse.core.runtime.jobs.Job$2.run(Job.java:187)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-06-07 11:38:12.692
+!MESSAGE Builder must not be set
+!STACK 0
+java.lang.IllegalStateException: Builder must not be set
+	at org.eclipse.mylyn.wikitext.parser.MarkupParser.parseToHtml(MarkupParser.java:114)
+	at org.eclipse.lsp4e.LSPEclipseUtils.lambda$29(LSPEclipseUtils.java:1440)
+	at org.eclipse.lsp4j.jsonrpc.messages.Either.map(Either.java:75)
+	at org.eclipse.lsp4e.LSPEclipseUtils.getHtmlDocString(LSPEclipseUtils.java:1429)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.getAdditionalProposalInfo(LSCompletionProposal.java:349)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.getAdditionalProposalInfo(LSCompletionProposal.java:1)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-06-07 11:38:17.813
+!MESSAGE Builder must not be set
+!STACK 0
+java.lang.IllegalStateException: Builder must not be set
+	at org.eclipse.mylyn.wikitext.parser.MarkupParser.parseToHtml(MarkupParser.java:114)
+	at org.eclipse.lsp4e.LSPEclipseUtils.lambda$29(LSPEclipseUtils.java:1440)
+	at org.eclipse.lsp4j.jsonrpc.messages.Either.map(Either.java:75)
+	at org.eclipse.lsp4e.LSPEclipseUtils.getHtmlDocString(LSPEclipseUtils.java:1429)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.getAdditionalProposalInfo(LSCompletionProposal.java:349)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.getAdditionalProposalInfo(LSCompletionProposal.java:1)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-06-07 11:40:42.117
+!MESSAGE Could not resolve completion items due to timeout after 500 milliseconds in `completionItem/resolve`
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.getAdditionalProposalInfo(LSCompletionProposal.java:330)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.getAdditionalProposalInfo(LSCompletionProposal.java:1)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 4 2024-06-07 15:55:22.461
+!MESSAGE Could not retrieve interfaces
+!STACK 0
+org.eclipse.jdt.internal.compiler.problem.AbortCompilation: Pb(347) The type groovy.lang.GroovyObject cannot be resolved. It is indirectly referenced from required type org.springframework.context.support.GenericGroovyApplicationContext
+	at org.eclipse.jdt.internal.compiler.problem.ProblemHandler.handle(ProblemHandler.java:161)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemHandler.handle(ProblemHandler.java:228)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemReporter.handle(ProblemReporter.java:2693)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemReporter.isClassPathCorrect(ProblemReporter.java:5185)
+	at org.eclipse.jdt.internal.compiler.lookup.UnresolvedReferenceBinding.resolve(UnresolvedReferenceBinding.java:125)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveType(BinaryTypeBinding.java:251)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.superInterfaces(BinaryTypeBinding.java:2549)
+	at org.eclipse.jdt.core.dom.TypeBinding.getInterfaces(TypeBinding.java:513)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsBaseSubProcessor.isInherited(UnresolvedElementsBaseSubProcessor.java:1010)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsBaseSubProcessor.addSimilarTypeProposals(UnresolvedElementsBaseSubProcessor.java:983)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsBaseSubProcessor.collectTypeProposals(UnresolvedElementsBaseSubProcessor.java:742)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsSubProcessor.getTypeProposals(UnresolvedElementsSubProcessor.java:144)
+	at org.eclipse.jdt.internal.ui.text.correction.QuickFixProcessor.process(QuickFixProcessor.java:455)
+	at org.eclipse.jdt.internal.ui.text.correction.QuickFixProcessor.getCorrections(QuickFixProcessor.java:378)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionCollector.safeRun(JavaCorrectionProcessor.java:381)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionProcessorAccess.run(JavaCorrectionProcessor.java:341)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionProcessorAccess.process(JavaCorrectionProcessor.java:336)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.collectCorrections(JavaCorrectionProcessor.java:465)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.getJavaAnnotationFixes(ProblemHover.java:115)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.computeCompletionProposals(ProblemHover.java:89)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.<init>(ProblemHover.java:74)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover.createAnnotationInfo(ProblemHover.java:178)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover.getHoverInfo2(AbstractAnnotationHover.java:755)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.core 4 4 2024-06-07 15:55:22.595
+!MESSAGE Could not retrieve interfaces
+!STACK 0
+org.eclipse.jdt.internal.compiler.problem.AbortCompilation: Pb(347) The type groovy.lang.GroovyObject cannot be resolved. It is indirectly referenced from required type org.springframework.web.context.support.GroovyWebApplicationContext
+	at org.eclipse.jdt.internal.compiler.problem.ProblemHandler.handle(ProblemHandler.java:161)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemHandler.handle(ProblemHandler.java:228)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemReporter.handle(ProblemReporter.java:2693)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemReporter.isClassPathCorrect(ProblemReporter.java:5185)
+	at org.eclipse.jdt.internal.compiler.lookup.UnresolvedReferenceBinding.resolve(UnresolvedReferenceBinding.java:125)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveType(BinaryTypeBinding.java:251)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.superInterfaces(BinaryTypeBinding.java:2549)
+	at org.eclipse.jdt.core.dom.TypeBinding.getInterfaces(TypeBinding.java:513)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsBaseSubProcessor.isInherited(UnresolvedElementsBaseSubProcessor.java:1010)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsBaseSubProcessor.addSimilarTypeProposals(UnresolvedElementsBaseSubProcessor.java:983)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsBaseSubProcessor.collectTypeProposals(UnresolvedElementsBaseSubProcessor.java:742)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsSubProcessor.getTypeProposals(UnresolvedElementsSubProcessor.java:144)
+	at org.eclipse.jdt.internal.ui.text.correction.QuickFixProcessor.process(QuickFixProcessor.java:455)
+	at org.eclipse.jdt.internal.ui.text.correction.QuickFixProcessor.getCorrections(QuickFixProcessor.java:378)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionCollector.safeRun(JavaCorrectionProcessor.java:381)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionProcessorAccess.run(JavaCorrectionProcessor.java:341)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionProcessorAccess.process(JavaCorrectionProcessor.java:336)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.collectCorrections(JavaCorrectionProcessor.java:465)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.getJavaAnnotationFixes(ProblemHover.java:115)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.computeCompletionProposals(ProblemHover.java:89)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.<init>(ProblemHover.java:74)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover.createAnnotationInfo(ProblemHover.java:178)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover.getHoverInfo2(AbstractAnnotationHover.java:755)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.core 4 4 2024-06-07 15:55:54.157
+!MESSAGE Could not retrieve interfaces
+!STACK 0
+org.eclipse.jdt.internal.compiler.problem.AbortCompilation: Pb(347) The type groovy.lang.GroovyObject cannot be resolved. It is indirectly referenced from required type org.springframework.context.support.GenericGroovyApplicationContext
+	at org.eclipse.jdt.internal.compiler.problem.ProblemHandler.handle(ProblemHandler.java:161)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemHandler.handle(ProblemHandler.java:228)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemReporter.handle(ProblemReporter.java:2693)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemReporter.isClassPathCorrect(ProblemReporter.java:5185)
+	at org.eclipse.jdt.internal.compiler.lookup.UnresolvedReferenceBinding.resolve(UnresolvedReferenceBinding.java:125)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveType(BinaryTypeBinding.java:251)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.superInterfaces(BinaryTypeBinding.java:2549)
+	at org.eclipse.jdt.core.dom.TypeBinding.getInterfaces(TypeBinding.java:513)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsBaseSubProcessor.isInherited(UnresolvedElementsBaseSubProcessor.java:1010)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsBaseSubProcessor.addSimilarTypeProposals(UnresolvedElementsBaseSubProcessor.java:983)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsBaseSubProcessor.collectTypeProposals(UnresolvedElementsBaseSubProcessor.java:742)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsSubProcessor.getTypeProposals(UnresolvedElementsSubProcessor.java:144)
+	at org.eclipse.jdt.internal.ui.text.correction.QuickFixProcessor.process(QuickFixProcessor.java:455)
+	at org.eclipse.jdt.internal.ui.text.correction.QuickFixProcessor.getCorrections(QuickFixProcessor.java:378)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionCollector.safeRun(JavaCorrectionProcessor.java:381)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionProcessorAccess.run(JavaCorrectionProcessor.java:341)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionProcessorAccess.process(JavaCorrectionProcessor.java:336)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.collectCorrections(JavaCorrectionProcessor.java:465)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.getJavaAnnotationFixes(ProblemHover.java:115)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.computeCompletionProposals(ProblemHover.java:89)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.<init>(ProblemHover.java:74)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover.createAnnotationInfo(ProblemHover.java:178)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover.getHoverInfo2(AbstractAnnotationHover.java:755)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.core 4 4 2024-06-07 15:55:54.198
+!MESSAGE Could not retrieve interfaces
+!STACK 0
+org.eclipse.jdt.internal.compiler.problem.AbortCompilation: Pb(347) The type groovy.lang.GroovyObject cannot be resolved. It is indirectly referenced from required type org.springframework.web.context.support.GroovyWebApplicationContext
+	at org.eclipse.jdt.internal.compiler.problem.ProblemHandler.handle(ProblemHandler.java:161)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemHandler.handle(ProblemHandler.java:228)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemReporter.handle(ProblemReporter.java:2693)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemReporter.isClassPathCorrect(ProblemReporter.java:5185)
+	at org.eclipse.jdt.internal.compiler.lookup.UnresolvedReferenceBinding.resolve(UnresolvedReferenceBinding.java:125)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveType(BinaryTypeBinding.java:251)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.superInterfaces(BinaryTypeBinding.java:2549)
+	at org.eclipse.jdt.core.dom.TypeBinding.getInterfaces(TypeBinding.java:513)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsBaseSubProcessor.isInherited(UnresolvedElementsBaseSubProcessor.java:1010)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsBaseSubProcessor.addSimilarTypeProposals(UnresolvedElementsBaseSubProcessor.java:983)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsBaseSubProcessor.collectTypeProposals(UnresolvedElementsBaseSubProcessor.java:742)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsSubProcessor.getTypeProposals(UnresolvedElementsSubProcessor.java:144)
+	at org.eclipse.jdt.internal.ui.text.correction.QuickFixProcessor.process(QuickFixProcessor.java:455)
+	at org.eclipse.jdt.internal.ui.text.correction.QuickFixProcessor.getCorrections(QuickFixProcessor.java:378)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionCollector.safeRun(JavaCorrectionProcessor.java:381)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionProcessorAccess.run(JavaCorrectionProcessor.java:341)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionProcessorAccess.process(JavaCorrectionProcessor.java:336)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.collectCorrections(JavaCorrectionProcessor.java:465)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.getJavaAnnotationFixes(ProblemHover.java:115)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.computeCompletionProposals(ProblemHover.java:89)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.<init>(ProblemHover.java:74)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover.createAnnotationInfo(ProblemHover.java:178)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover.getHoverInfo2(AbstractAnnotationHover.java:755)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.core 4 4 2024-06-07 15:55:58.476
+!MESSAGE Could not retrieve interfaces
+!STACK 0
+org.eclipse.jdt.internal.compiler.problem.AbortCompilation: Pb(347) The type groovy.lang.GroovyObject cannot be resolved. It is indirectly referenced from required type org.springframework.context.support.GenericGroovyApplicationContext
+	at org.eclipse.jdt.internal.compiler.problem.ProblemHandler.handle(ProblemHandler.java:161)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemHandler.handle(ProblemHandler.java:228)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemReporter.handle(ProblemReporter.java:2693)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemReporter.isClassPathCorrect(ProblemReporter.java:5185)
+	at org.eclipse.jdt.internal.compiler.lookup.UnresolvedReferenceBinding.resolve(UnresolvedReferenceBinding.java:125)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveType(BinaryTypeBinding.java:251)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.superInterfaces(BinaryTypeBinding.java:2549)
+	at org.eclipse.jdt.core.dom.TypeBinding.getInterfaces(TypeBinding.java:513)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsBaseSubProcessor.isInherited(UnresolvedElementsBaseSubProcessor.java:1010)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsBaseSubProcessor.addSimilarTypeProposals(UnresolvedElementsBaseSubProcessor.java:983)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsBaseSubProcessor.collectTypeProposals(UnresolvedElementsBaseSubProcessor.java:742)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsSubProcessor.getTypeProposals(UnresolvedElementsSubProcessor.java:144)
+	at org.eclipse.jdt.internal.ui.text.correction.QuickFixProcessor.process(QuickFixProcessor.java:455)
+	at org.eclipse.jdt.internal.ui.text.correction.QuickFixProcessor.getCorrections(QuickFixProcessor.java:378)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionCollector.safeRun(JavaCorrectionProcessor.java:381)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionProcessorAccess.run(JavaCorrectionProcessor.java:341)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionProcessorAccess.process(JavaCorrectionProcessor.java:336)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.collectCorrections(JavaCorrectionProcessor.java:465)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.collectProposals(JavaCorrectionProcessor.java:284)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.computeQuickAssistProposals(JavaCorrectionProcessor.java:247)
+	at org.eclipse.jface.text.quickassist.QuickAssistAssistant$ContentAssistProcessor.computeCompletionProposals(QuickAssistAssistant.java:71)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$2.lambda$0(ContentAssistant.java:2064)
+	at java.base/java.util.Collections$SingletonSet.forEach(Collections.java:4905)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$2.run(ContentAssistant.java:2063)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.computeCompletionProposals(ContentAssistant.java:2060)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.computeProposals(CompletionProposalPopup.java:577)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.lambda$0(CompletionProposalPopup.java:507)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.showProposals(CompletionProposalPopup.java:502)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.showPossibleCompletions(ContentAssistant.java:1874)
+	at org.eclipse.jface.text.quickassist.QuickAssistAssistant.showPossibleQuickAssists(QuickAssistAssistant.java:113)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionAssistant.showPossibleQuickAssists(JavaCorrectionAssistant.java:194)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer.doOperation(CompilationUnitEditor.java:201)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaSelectAnnotationRulerAction.runWithEvent(JavaSelectAnnotationRulerAction.java:101)
+	at org.eclipse.ui.texteditor.AbstractRulerActionDelegate.runWithEvent(AbstractRulerActionDelegate.java:112)
+	at org.eclipse.ui.internal.handlers.ActionDelegateHandlerProxy.execute(ActionDelegateHandlerProxy.java:278)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.ui.actions.ContributedAction.runWithEvent(ContributedAction.java:176)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$1.triggerAction(AbstractTextEditor.java:3029)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$1.lambda$0(AbstractTextEditor.java:3043)
+	at org.eclipse.swt.widgets.Display.runTimer(Display.java:4170)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3291)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.jdt.core 4 4 2024-06-07 15:55:58.523
+!MESSAGE Could not retrieve interfaces
+!STACK 0
+org.eclipse.jdt.internal.compiler.problem.AbortCompilation: Pb(347) The type groovy.lang.GroovyObject cannot be resolved. It is indirectly referenced from required type org.springframework.web.context.support.GroovyWebApplicationContext
+	at org.eclipse.jdt.internal.compiler.problem.ProblemHandler.handle(ProblemHandler.java:161)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemHandler.handle(ProblemHandler.java:228)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemReporter.handle(ProblemReporter.java:2693)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemReporter.isClassPathCorrect(ProblemReporter.java:5185)
+	at org.eclipse.jdt.internal.compiler.lookup.UnresolvedReferenceBinding.resolve(UnresolvedReferenceBinding.java:125)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveType(BinaryTypeBinding.java:251)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.superInterfaces(BinaryTypeBinding.java:2549)
+	at org.eclipse.jdt.core.dom.TypeBinding.getInterfaces(TypeBinding.java:513)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsBaseSubProcessor.isInherited(UnresolvedElementsBaseSubProcessor.java:1010)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsBaseSubProcessor.addSimilarTypeProposals(UnresolvedElementsBaseSubProcessor.java:983)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsBaseSubProcessor.collectTypeProposals(UnresolvedElementsBaseSubProcessor.java:742)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsSubProcessor.getTypeProposals(UnresolvedElementsSubProcessor.java:144)
+	at org.eclipse.jdt.internal.ui.text.correction.QuickFixProcessor.process(QuickFixProcessor.java:455)
+	at org.eclipse.jdt.internal.ui.text.correction.QuickFixProcessor.getCorrections(QuickFixProcessor.java:378)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionCollector.safeRun(JavaCorrectionProcessor.java:381)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionProcessorAccess.run(JavaCorrectionProcessor.java:341)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionProcessorAccess.process(JavaCorrectionProcessor.java:336)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.collectCorrections(JavaCorrectionProcessor.java:465)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.collectProposals(JavaCorrectionProcessor.java:284)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.computeQuickAssistProposals(JavaCorrectionProcessor.java:247)
+	at org.eclipse.jface.text.quickassist.QuickAssistAssistant$ContentAssistProcessor.computeCompletionProposals(QuickAssistAssistant.java:71)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$2.lambda$0(ContentAssistant.java:2064)
+	at java.base/java.util.Collections$SingletonSet.forEach(Collections.java:4905)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$2.run(ContentAssistant.java:2063)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.computeCompletionProposals(ContentAssistant.java:2060)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.computeProposals(CompletionProposalPopup.java:577)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.lambda$0(CompletionProposalPopup.java:507)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.showProposals(CompletionProposalPopup.java:502)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.showPossibleCompletions(ContentAssistant.java:1874)
+	at org.eclipse.jface.text.quickassist.QuickAssistAssistant.showPossibleQuickAssists(QuickAssistAssistant.java:113)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionAssistant.showPossibleQuickAssists(JavaCorrectionAssistant.java:194)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer.doOperation(CompilationUnitEditor.java:201)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaSelectAnnotationRulerAction.runWithEvent(JavaSelectAnnotationRulerAction.java:101)
+	at org.eclipse.ui.texteditor.AbstractRulerActionDelegate.runWithEvent(AbstractRulerActionDelegate.java:112)
+	at org.eclipse.ui.internal.handlers.ActionDelegateHandlerProxy.execute(ActionDelegateHandlerProxy.java:278)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.ui.actions.ContributedAction.runWithEvent(ContributedAction.java:176)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$1.triggerAction(AbstractTextEditor.java:3029)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$1.lambda$0(AbstractTextEditor.java:3043)
+	at org.eclipse.swt.widgets.Display.runTimer(Display.java:4170)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3291)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.jdt.core 4 4 2024-06-07 16:01:10.057
+!MESSAGE Could not retrieve interfaces
+!STACK 0
+org.eclipse.jdt.internal.compiler.problem.AbortCompilation: Pb(347) The type groovy.lang.GroovyObject cannot be resolved. It is indirectly referenced from required type org.springframework.context.support.GenericGroovyApplicationContext
+	at org.eclipse.jdt.internal.compiler.problem.ProblemHandler.handle(ProblemHandler.java:161)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemHandler.handle(ProblemHandler.java:228)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemReporter.handle(ProblemReporter.java:2693)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemReporter.isClassPathCorrect(ProblemReporter.java:5185)
+	at org.eclipse.jdt.internal.compiler.lookup.UnresolvedReferenceBinding.resolve(UnresolvedReferenceBinding.java:125)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveType(BinaryTypeBinding.java:251)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.superInterfaces(BinaryTypeBinding.java:2549)
+	at org.eclipse.jdt.core.dom.TypeBinding.getInterfaces(TypeBinding.java:513)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsBaseSubProcessor.isInherited(UnresolvedElementsBaseSubProcessor.java:1010)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsBaseSubProcessor.addSimilarTypeProposals(UnresolvedElementsBaseSubProcessor.java:983)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsBaseSubProcessor.collectTypeProposals(UnresolvedElementsBaseSubProcessor.java:742)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsSubProcessor.getTypeProposals(UnresolvedElementsSubProcessor.java:144)
+	at org.eclipse.jdt.internal.ui.text.correction.QuickFixProcessor.process(QuickFixProcessor.java:455)
+	at org.eclipse.jdt.internal.ui.text.correction.QuickFixProcessor.getCorrections(QuickFixProcessor.java:378)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionCollector.safeRun(JavaCorrectionProcessor.java:381)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionProcessorAccess.run(JavaCorrectionProcessor.java:341)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionProcessorAccess.process(JavaCorrectionProcessor.java:336)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.collectCorrections(JavaCorrectionProcessor.java:465)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.getJavaAnnotationFixes(ProblemHover.java:115)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.computeCompletionProposals(ProblemHover.java:89)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.<init>(ProblemHover.java:74)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover.createAnnotationInfo(ProblemHover.java:178)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover.getHoverInfo2(AbstractAnnotationHover.java:755)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.core 4 4 2024-06-07 16:01:10.098
+!MESSAGE Could not retrieve interfaces
+!STACK 0
+org.eclipse.jdt.internal.compiler.problem.AbortCompilation: Pb(347) The type groovy.lang.GroovyObject cannot be resolved. It is indirectly referenced from required type org.springframework.web.context.support.GroovyWebApplicationContext
+	at org.eclipse.jdt.internal.compiler.problem.ProblemHandler.handle(ProblemHandler.java:161)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemHandler.handle(ProblemHandler.java:228)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemReporter.handle(ProblemReporter.java:2693)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemReporter.isClassPathCorrect(ProblemReporter.java:5185)
+	at org.eclipse.jdt.internal.compiler.lookup.UnresolvedReferenceBinding.resolve(UnresolvedReferenceBinding.java:125)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveType(BinaryTypeBinding.java:251)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.superInterfaces(BinaryTypeBinding.java:2549)
+	at org.eclipse.jdt.core.dom.TypeBinding.getInterfaces(TypeBinding.java:513)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsBaseSubProcessor.isInherited(UnresolvedElementsBaseSubProcessor.java:1010)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsBaseSubProcessor.addSimilarTypeProposals(UnresolvedElementsBaseSubProcessor.java:983)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsBaseSubProcessor.collectTypeProposals(UnresolvedElementsBaseSubProcessor.java:742)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsSubProcessor.getTypeProposals(UnresolvedElementsSubProcessor.java:144)
+	at org.eclipse.jdt.internal.ui.text.correction.QuickFixProcessor.process(QuickFixProcessor.java:455)
+	at org.eclipse.jdt.internal.ui.text.correction.QuickFixProcessor.getCorrections(QuickFixProcessor.java:378)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionCollector.safeRun(JavaCorrectionProcessor.java:381)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionProcessorAccess.run(JavaCorrectionProcessor.java:341)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionProcessorAccess.process(JavaCorrectionProcessor.java:336)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.collectCorrections(JavaCorrectionProcessor.java:465)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.getJavaAnnotationFixes(ProblemHover.java:115)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.computeCompletionProposals(ProblemHover.java:89)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.<init>(ProblemHover.java:74)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover.createAnnotationInfo(ProblemHover.java:178)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover.getHoverInfo2(AbstractAnnotationHover.java:755)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+!SESSION 2024-06-10 15:16:49.453 -----------------------------------------------
+eclipse.buildId=4.22.1.202405011620
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-06-10 15:17:03.534
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-06-10 15:17:03.986
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-06-10 15:17:10.652
+!MESSAGE Logback config file: C:\Users\adarsh\Documents\workspace-spring-tool-suite-4-4.22.1.RELEASE\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.0.20240217-1525.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-06-10 15:17:12.352
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-06-10 15:17:12.352
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-06-10 15:17:13.617
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-06-10 15:17:13.617
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-06-10 15:17:22.801
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\adarsh\Desktop\My workspace\sts-4.22.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.11.v20240426-1830\jre\bin\javaw.exe
+-cp
+C:\Users\adarsh\Desktop\My workspace\sts-4.22.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.54.0.202405011602\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\adarsh\Desktop\My workspace\sts-4.22.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.54.0.202405011602\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\adarsh\Desktop\My workspace\sts-4.22.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.54.0.202405011602\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/adarsh/Documents/workspace-spring-tool-suite-4-4.22.1.RELEASE/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1718012842800
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-10 15:17:22.803
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-06-10 15:17:23.006
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 12768
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-06-10 15:17:25.200
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\adarsh'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-10 15:17:25.740
+!MESSAGE Boot project ADDED: bootjpaexample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-10 15:17:25.742
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-10 15:17:25.752
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-10 15:17:25.764
+!MESSAGE Boot project ADDED: firstStsProject
+
+!ENTRY org.eclipse.ui.workbench 4 0 2024-06-10 15:17:27.588
+!MESSAGE Failed to retrieve Windows Defender status.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to retrieve Windows Defender status.
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.isWindowsDefenderActive(WindowsDefenderConfigurator.java:324)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.runExclusionCheck(WindowsDefenderConfigurator.java:154)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.lambda$0(WindowsDefenderConfigurator.java:101)
+	at org.eclipse.core.runtime.jobs.Job$2.run(Job.java:187)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: Process terminated with unexpected result:
+Passive Mode
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.isWindowsDefenderActive(WindowsDefenderConfigurator.java:321)
+	... 4 more
+!SUBENTRY 1 org.eclipse.ui.workbench 4 0 2024-06-10 15:17:27.589
+!MESSAGE Failed to retrieve Windows Defender status.
+!STACK 0
+java.io.IOException: Process terminated with unexpected result:
+Passive Mode
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.isWindowsDefenderActive(WindowsDefenderConfigurator.java:321)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.runExclusionCheck(WindowsDefenderConfigurator.java:154)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.lambda$0(WindowsDefenderConfigurator.java:101)
+	at org.eclipse.core.runtime.jobs.Job$2.run(Job.java:187)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2024-06-11 14:38:56.814 -----------------------------------------------
+eclipse.buildId=4.22.1.202405011620
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-06-11 14:39:10.538
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-06-11 14:39:10.965
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-06-11 14:39:15.850
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-06-11 14:39:16.938
+!MESSAGE Logback config file: C:\Users\adarsh\Documents\workspace-spring-tool-suite-4-4.22.1.RELEASE\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.0.20240217-1525.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-06-11 14:39:18.153
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-06-11 14:39:18.153
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-06-11 14:39:18.848
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-06-11 14:39:18.848
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-06-11 14:39:25.362
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\adarsh\Desktop\My workspace\sts-4.22.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.11.v20240426-1830\jre\bin\javaw.exe
+-cp
+C:\Users\adarsh\Desktop\My workspace\sts-4.22.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.54.0.202405011602\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\adarsh\Desktop\My workspace\sts-4.22.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.54.0.202405011602\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\adarsh\Desktop\My workspace\sts-4.22.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.54.0.202405011602\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/adarsh/Documents/workspace-spring-tool-suite-4-4.22.1.RELEASE/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1718096965360
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-11 14:39:25.365
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-06-11 14:39:25.565
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 12272
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-06-11 14:39:27.197
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\adarsh'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-11 14:39:27.342
+!MESSAGE Boot project ADDED: bootjpaexample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-11 14:39:27.344
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-11 14:39:27.349
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-11 14:39:27.352
+!MESSAGE Boot project ADDED: firstStsProject
+
+!ENTRY org.eclipse.ui.workbench 4 0 2024-06-11 14:39:29.159
+!MESSAGE Failed to retrieve Windows Defender status.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to retrieve Windows Defender status.
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.isWindowsDefenderActive(WindowsDefenderConfigurator.java:324)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.runExclusionCheck(WindowsDefenderConfigurator.java:154)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.lambda$0(WindowsDefenderConfigurator.java:101)
+	at org.eclipse.core.runtime.jobs.Job$2.run(Job.java:187)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: Process terminated with unexpected result:
+Passive Mode
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.isWindowsDefenderActive(WindowsDefenderConfigurator.java:321)
+	... 4 more
+!SUBENTRY 1 org.eclipse.ui.workbench 4 0 2024-06-11 14:39:29.163
+!MESSAGE Failed to retrieve Windows Defender status.
+!STACK 0
+java.io.IOException: Process terminated with unexpected result:
+Passive Mode
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.isWindowsDefenderActive(WindowsDefenderConfigurator.java:321)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.runExclusionCheck(WindowsDefenderConfigurator.java:154)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.lambda$0(WindowsDefenderConfigurator.java:101)
+	at org.eclipse.core.runtime.jobs.Job$2.run(Job.java:187)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2024-06-12 15:13:11.536 -----------------------------------------------
+eclipse.buildId=4.22.1.202405011620
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-06-12 15:13:24.360
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-06-12 15:13:24.751
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-06-12 15:13:30.491
+!MESSAGE Logback config file: C:\Users\adarsh\Documents\workspace-spring-tool-suite-4-4.22.1.RELEASE\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.0.20240217-1525.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-06-12 15:13:31.768
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-06-12 15:13:31.768
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-06-12 15:13:32.552
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-06-12 15:13:32.552
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-06-12 15:13:39.293
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\adarsh\Desktop\My workspace\sts-4.22.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.11.v20240426-1830\jre\bin\javaw.exe
+-cp
+C:\Users\adarsh\Desktop\My workspace\sts-4.22.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.54.0.202405011602\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\adarsh\Desktop\My workspace\sts-4.22.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.54.0.202405011602\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\adarsh\Desktop\My workspace\sts-4.22.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.54.0.202405011602\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/adarsh/Documents/workspace-spring-tool-suite-4-4.22.1.RELEASE/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1718185419291
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-12 15:13:39.294
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-06-12 15:13:39.342
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 14980
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-06-12 15:13:42.031
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\adarsh'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-12 15:13:42.181
+!MESSAGE Boot project ADDED: bootjpaexample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-12 15:13:42.183
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-12 15:13:42.188
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-12 15:13:42.191
+!MESSAGE Boot project ADDED: firstStsProject
+
+!ENTRY org.eclipse.ui.workbench 4 0 2024-06-12 15:13:43.953
+!MESSAGE Failed to retrieve Windows Defender status.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to retrieve Windows Defender status.
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.isWindowsDefenderActive(WindowsDefenderConfigurator.java:324)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.runExclusionCheck(WindowsDefenderConfigurator.java:154)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.lambda$0(WindowsDefenderConfigurator.java:101)
+	at org.eclipse.core.runtime.jobs.Job$2.run(Job.java:187)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: Process terminated with unexpected result:
+Passive Mode
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.isWindowsDefenderActive(WindowsDefenderConfigurator.java:321)
+	... 4 more
+!SUBENTRY 1 org.eclipse.ui.workbench 4 0 2024-06-12 15:13:43.955
+!MESSAGE Failed to retrieve Windows Defender status.
+!STACK 0
+java.io.IOException: Process terminated with unexpected result:
+Passive Mode
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.isWindowsDefenderActive(WindowsDefenderConfigurator.java:321)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.runExclusionCheck(WindowsDefenderConfigurator.java:154)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.lambda$0(WindowsDefenderConfigurator.java:101)
+	at org.eclipse.core.runtime.jobs.Job$2.run(Job.java:187)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-06-12 15:13:46.711
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+!SESSION 2024-06-14 11:50:05.590 -----------------------------------------------
+eclipse.buildId=4.22.1.202405011620
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-06-14 11:50:19.605
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-06-14 11:50:20.037
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-06-14 11:50:26.142
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-06-14 11:50:27.058
+!MESSAGE Logback config file: C:\Users\adarsh\Documents\workspace-spring-tool-suite-4-4.22.1.RELEASE\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.0.20240217-1525.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-06-14 11:50:28.439
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-06-14 11:50:28.439
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-06-14 11:50:29.299
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-06-14 11:50:29.299
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-06-14 11:50:36.300
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\adarsh\Desktop\My workspace\sts-4.22.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.11.v20240426-1830\jre\bin\javaw.exe
+-cp
+C:\Users\adarsh\Desktop\My workspace\sts-4.22.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.54.0.202405011602\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\adarsh\Desktop\My workspace\sts-4.22.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.54.0.202405011602\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\adarsh\Desktop\My workspace\sts-4.22.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.54.0.202405011602\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/adarsh/Documents/workspace-spring-tool-suite-4-4.22.1.RELEASE/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1718346036298
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-14 11:50:36.301
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-06-14 11:50:36.500
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 22548
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-06-14 11:50:38.276
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\adarsh'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-14 11:50:38.465
+!MESSAGE Boot project ADDED: bootjpaexample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-14 11:50:38.467
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-14 11:50:38.473
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-14 11:50:38.475
+!MESSAGE Boot project ADDED: firstStsProject
+
+!ENTRY org.eclipse.ui.workbench 4 0 2024-06-14 11:50:42.804
+!MESSAGE Failed to retrieve Windows Defender status.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to retrieve Windows Defender status.
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.isWindowsDefenderActive(WindowsDefenderConfigurator.java:324)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.runExclusionCheck(WindowsDefenderConfigurator.java:154)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.lambda$0(WindowsDefenderConfigurator.java:101)
+	at org.eclipse.core.runtime.jobs.Job$2.run(Job.java:187)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: Process terminated with unexpected result:
+Passive Mode
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.isWindowsDefenderActive(WindowsDefenderConfigurator.java:321)
+	... 4 more
+!SUBENTRY 1 org.eclipse.ui.workbench 4 0 2024-06-14 11:50:42.804
+!MESSAGE Failed to retrieve Windows Defender status.
+!STACK 0
+java.io.IOException: Process terminated with unexpected result:
+Passive Mode
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.isWindowsDefenderActive(WindowsDefenderConfigurator.java:321)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.runExclusionCheck(WindowsDefenderConfigurator.java:154)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.lambda$0(WindowsDefenderConfigurator.java:101)
+	at org.eclipse.core.runtime.jobs.Job$2.run(Job.java:187)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-14 12:13:24.563
+!MESSAGE Classpath changed for project: bootdevtool
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-14 12:13:26.702
+!MESSAGE Classpath changed for project: bootdevtool
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-14 12:13:26.703
+!MESSAGE Boot project ADDED: bootdevtool
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-14 12:13:27.175
+!MESSAGE Classpath changed for project: bootdevtool
+!SESSION 2024-06-19 14:57:43.901 -----------------------------------------------
+eclipse.buildId=4.22.1.202405011620
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-06-19 14:57:56.684
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-06-19 14:57:57.250
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-06-19 14:58:03.015
+!MESSAGE Logback config file: C:\Users\adarsh\Documents\workspace-spring-tool-suite-4-4.22.1.RELEASE\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.0.20240217-1525.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-06-19 14:58:04.401
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-06-19 14:58:04.401
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-06-19 14:58:05.118
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-06-19 14:58:05.118
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-06-19 14:58:11.933
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\adarsh\Desktop\My workspace\sts-4.22.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.11.v20240426-1830\jre\bin\javaw.exe
+-cp
+C:\Users\adarsh\Desktop\My workspace\sts-4.22.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.54.0.202405011602\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\adarsh\Desktop\My workspace\sts-4.22.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.54.0.202405011602\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\adarsh\Desktop\My workspace\sts-4.22.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.54.0.202405011602\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/adarsh/Documents/workspace-spring-tool-suite-4-4.22.1.RELEASE/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1718789291932
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-19 14:58:11.934
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-06-19 14:58:13.968
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 16864
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-06-19 14:58:14.378
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\adarsh'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-19 14:58:14.559
+!MESSAGE Boot project ADDED: bootdevtool
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-19 14:58:14.561
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-19 14:58:14.568
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-19 14:58:14.570
+!MESSAGE Boot project ADDED: bootjpaexample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-19 14:58:14.571
+!MESSAGE Boot project ADDED: firstStsProject
+
+!ENTRY org.eclipse.ui.workbench 4 0 2024-06-19 14:58:15.872
+!MESSAGE Failed to retrieve Windows Defender status.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to retrieve Windows Defender status.
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.isWindowsDefenderActive(WindowsDefenderConfigurator.java:324)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.runExclusionCheck(WindowsDefenderConfigurator.java:154)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.lambda$0(WindowsDefenderConfigurator.java:101)
+	at org.eclipse.core.runtime.jobs.Job$2.run(Job.java:187)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: Process terminated with unexpected result:
+Passive Mode
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.isWindowsDefenderActive(WindowsDefenderConfigurator.java:321)
+	... 4 more
+!SUBENTRY 1 org.eclipse.ui.workbench 4 0 2024-06-19 14:58:15.874
+!MESSAGE Failed to retrieve Windows Defender status.
+!STACK 0
+java.io.IOException: Process terminated with unexpected result:
+Passive Mode
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.isWindowsDefenderActive(WindowsDefenderConfigurator.java:321)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.runExclusionCheck(WindowsDefenderConfigurator.java:154)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.lambda$0(WindowsDefenderConfigurator.java:101)
+	at org.eclipse.core.runtime.jobs.Job$2.run(Job.java:187)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-19 15:55:11.104
+!MESSAGE Classpath changed for project: bootrestBook
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-19 15:55:11.106
+!MESSAGE Boot project ADDED: bootrestBook
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-19 15:55:12.096
+!MESSAGE Classpath changed for project: bootrestBook
+!SESSION 2024-06-20 12:02:25.118 -----------------------------------------------
+eclipse.buildId=4.22.1.202405011620
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-06-20 12:02:38.697
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-06-20 12:02:39.160
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-06-20 12:02:44.134
+!MESSAGE Logback config file: C:\Users\adarsh\Documents\workspace-spring-tool-suite-4-4.22.1.RELEASE\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.0.20240217-1525.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-06-20 12:02:45.500
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-06-20 12:02:45.500
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-06-20 12:02:46.370
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-06-20 12:02:46.371
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-06-20 12:02:53.290
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\adarsh\Desktop\My workspace\sts-4.22.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.11.v20240426-1830\jre\bin\javaw.exe
+-cp
+C:\Users\adarsh\Desktop\My workspace\sts-4.22.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.54.0.202405011602\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\adarsh\Desktop\My workspace\sts-4.22.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.54.0.202405011602\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\adarsh\Desktop\My workspace\sts-4.22.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.54.0.202405011602\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/adarsh/Documents/workspace-spring-tool-suite-4-4.22.1.RELEASE/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1718865173289
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-20 12:02:53.292
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-06-20 12:02:53.324
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 15960
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-06-20 12:02:55.861
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\adarsh'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-20 12:02:56.006
+!MESSAGE Boot project ADDED: bootdevtool
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-20 12:02:56.008
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-20 12:02:56.015
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-20 12:02:56.016
+!MESSAGE Boot project ADDED: bootjpaexample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-20 12:02:56.018
+!MESSAGE Boot project ADDED: bootrestBook
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-20 12:02:56.020
+!MESSAGE Boot project ADDED: firstStsProject
+
+!ENTRY org.eclipse.ui.workbench 4 0 2024-06-20 12:02:57.586
+!MESSAGE Failed to retrieve Windows Defender status.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to retrieve Windows Defender status.
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.isWindowsDefenderActive(WindowsDefenderConfigurator.java:324)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.runExclusionCheck(WindowsDefenderConfigurator.java:154)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.lambda$0(WindowsDefenderConfigurator.java:101)
+	at org.eclipse.core.runtime.jobs.Job$2.run(Job.java:187)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: Process terminated with unexpected result:
+Passive Mode
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.isWindowsDefenderActive(WindowsDefenderConfigurator.java:321)
+	... 4 more
+!SUBENTRY 1 org.eclipse.ui.workbench 4 0 2024-06-20 12:02:57.587
+!MESSAGE Failed to retrieve Windows Defender status.
+!STACK 0
+java.io.IOException: Process terminated with unexpected result:
+Passive Mode
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.isWindowsDefenderActive(WindowsDefenderConfigurator.java:321)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.runExclusionCheck(WindowsDefenderConfigurator.java:154)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.lambda$0(WindowsDefenderConfigurator.java:101)
+	at org.eclipse.core.runtime.jobs.Job$2.run(Job.java:187)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2024-06-20 14:40:01.690 -----------------------------------------------
+eclipse.buildId=4.22.1.202405011620
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-06-20 14:40:10.751
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-06-20 14:40:11.299
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-06-20 14:40:22.417
+!MESSAGE Logback config file: C:\Users\adarsh\Documents\workspace-spring-tool-suite-4-4.22.1.RELEASE\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.0.20240217-1525.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-06-20 14:40:23.297
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-06-20 14:40:23.297
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-06-20 14:40:23.876
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-06-20 14:40:23.876
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-06-20 14:40:28.766
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\adarsh\Desktop\My workspace\sts-4.22.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.11.v20240426-1830\jre\bin\javaw.exe
+-cp
+C:\Users\adarsh\Desktop\My workspace\sts-4.22.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.54.0.202405011602\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\adarsh\Desktop\My workspace\sts-4.22.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.54.0.202405011602\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\adarsh\Desktop\My workspace\sts-4.22.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.54.0.202405011602\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/adarsh/Documents/workspace-spring-tool-suite-4-4.22.1.RELEASE/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1718874628765
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-20 14:40:28.768
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-06-20 14:40:28.972
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 3264
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-06-20 14:40:30.282
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\adarsh'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-20 14:40:30.549
+!MESSAGE Boot project ADDED: bootdevtool
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-20 14:40:30.551
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-20 14:40:30.557
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-20 14:40:30.559
+!MESSAGE Boot project ADDED: bootjpaexample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-20 14:40:30.561
+!MESSAGE Boot project ADDED: bootrestBook
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-20 14:40:30.563
+!MESSAGE Boot project ADDED: firstStsProject
+
+!ENTRY org.eclipse.ui.workbench 4 0 2024-06-20 14:40:32.540
+!MESSAGE Failed to retrieve Windows Defender status.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to retrieve Windows Defender status.
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.isWindowsDefenderActive(WindowsDefenderConfigurator.java:324)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.runExclusionCheck(WindowsDefenderConfigurator.java:154)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.lambda$0(WindowsDefenderConfigurator.java:101)
+	at org.eclipse.core.runtime.jobs.Job$2.run(Job.java:187)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: Process terminated with unexpected result:
+Passive Mode
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.isWindowsDefenderActive(WindowsDefenderConfigurator.java:321)
+	... 4 more
+!SUBENTRY 1 org.eclipse.ui.workbench 4 0 2024-06-20 14:40:32.544
+!MESSAGE Failed to retrieve Windows Defender status.
+!STACK 0
+java.io.IOException: Process terminated with unexpected result:
+Passive Mode
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.isWindowsDefenderActive(WindowsDefenderConfigurator.java:321)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.runExclusionCheck(WindowsDefenderConfigurator.java:154)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.lambda$0(WindowsDefenderConfigurator.java:101)
+	at org.eclipse.core.runtime.jobs.Job$2.run(Job.java:187)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-06-20 14:50:06.942
+!MESSAGE InterruptedException
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.checkMarkerResolution(LSPCodeActionMarkerResolution.java:154)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.getResolutions(LSPCodeActionMarkerResolution.java:101)
+	at org.springframework.tooling.boot.ls.markers.LSPBootCodeActionMarkerResolution.getResolutions(LSPBootCodeActionMarkerResolution.java:25)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.getResolutions(MarkerHelpRegistry.java:393)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.collectMarkerProposals(JavaCorrectionProcessor.java:318)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.collectProposals(JavaCorrectionProcessor.java:277)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.getMarkerAnnotationFixes(ProblemHover.java:154)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.computeCompletionProposals(ProblemHover.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.<init>(ProblemHover.java:74)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover.createAnnotationInfo(ProblemHover.java:178)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover.getHoverInfo2(AbstractAnnotationHover.java:755)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-06-20 15:21:09.639
+!MESSAGE InterruptedException
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.checkMarkerResolution(LSPCodeActionMarkerResolution.java:154)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.getResolutions(LSPCodeActionMarkerResolution.java:101)
+	at org.springframework.tooling.boot.ls.markers.LSPBootCodeActionMarkerResolution.getResolutions(LSPBootCodeActionMarkerResolution.java:25)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.getResolutions(MarkerHelpRegistry.java:393)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.collectMarkerProposals(JavaCorrectionProcessor.java:318)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.collectProposals(JavaCorrectionProcessor.java:277)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.getMarkerAnnotationFixes(ProblemHover.java:154)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.computeCompletionProposals(ProblemHover.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.<init>(ProblemHover.java:74)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover.createAnnotationInfo(ProblemHover.java:178)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover.getHoverInfo2(AbstractAnnotationHover.java:755)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-06-20 15:21:27.132
+!MESSAGE InterruptedException
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.checkMarkerResolution(LSPCodeActionMarkerResolution.java:154)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.getResolutions(LSPCodeActionMarkerResolution.java:101)
+	at org.springframework.tooling.boot.ls.markers.LSPBootCodeActionMarkerResolution.getResolutions(LSPBootCodeActionMarkerResolution.java:25)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.getResolutions(MarkerHelpRegistry.java:393)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.collectMarkerProposals(JavaCorrectionProcessor.java:318)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.collectProposals(JavaCorrectionProcessor.java:277)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.getMarkerAnnotationFixes(ProblemHover.java:154)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.computeCompletionProposals(ProblemHover.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.<init>(ProblemHover.java:74)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover.createAnnotationInfo(ProblemHover.java:178)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover.getHoverInfo2(AbstractAnnotationHover.java:755)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+!SESSION 2024-07-01 10:03:00.633 -----------------------------------------------
+eclipse.buildId=4.22.1.202405011620
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-07-01 10:03:13.878
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-07-01 10:03:14.417
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-07-01 10:03:20.126
+!MESSAGE Logback config file: C:\Users\adarsh\Documents\workspace-spring-tool-suite-4-4.22.1.RELEASE\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.0.20240217-1525.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-07-01 10:03:21.478
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-07-01 10:03:21.478
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-07-01 10:03:22.370
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-07-01 10:03:22.371
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-07-01 10:03:29.367
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\adarsh\Desktop\My workspace\sts-4.22.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.11.v20240426-1830\jre\bin\javaw.exe
+-cp
+C:\Users\adarsh\Desktop\My workspace\sts-4.22.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.54.0.202405011602\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\adarsh\Desktop\My workspace\sts-4.22.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.54.0.202405011602\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\adarsh\Desktop\My workspace\sts-4.22.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.54.0.202405011602\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/adarsh/Documents/workspace-spring-tool-suite-4-4.22.1.RELEASE/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1719808409366
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-01 10:03:29.368
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-07-01 10:03:29.609
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 17856
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-07-01 10:03:31.931
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\adarsh'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-01 10:03:32.096
+!MESSAGE Boot project ADDED: bootdevtool
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-01 10:03:32.098
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-01 10:03:32.103
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-01 10:03:32.104
+!MESSAGE Boot project ADDED: bootjpaexample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-01 10:03:32.106
+!MESSAGE Boot project ADDED: bootrestBook
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-01 10:03:32.107
+!MESSAGE Boot project ADDED: firstStsProject
+
+!ENTRY org.eclipse.ui.workbench 4 0 2024-07-01 10:03:33.437
+!MESSAGE Failed to retrieve Windows Defender status.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to retrieve Windows Defender status.
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.isWindowsDefenderActive(WindowsDefenderConfigurator.java:324)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.runExclusionCheck(WindowsDefenderConfigurator.java:154)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.lambda$0(WindowsDefenderConfigurator.java:101)
+	at org.eclipse.core.runtime.jobs.Job$2.run(Job.java:187)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: Process terminated with unexpected result:
+Passive Mode
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.isWindowsDefenderActive(WindowsDefenderConfigurator.java:321)
+	... 4 more
+!SUBENTRY 1 org.eclipse.ui.workbench 4 0 2024-07-01 10:03:33.441
+!MESSAGE Failed to retrieve Windows Defender status.
+!STACK 0
+java.io.IOException: Process terminated with unexpected result:
+Passive Mode
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.isWindowsDefenderActive(WindowsDefenderConfigurator.java:321)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.runExclusionCheck(WindowsDefenderConfigurator.java:154)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.lambda$0(WindowsDefenderConfigurator.java:101)
+	at org.eclipse.core.runtime.jobs.Job$2.run(Job.java:187)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-07-01 10:24:12.061
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-07-01 10:31:43.230
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
