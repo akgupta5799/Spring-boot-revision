@@ -13,6 +13,8 @@ import com.api.book.service.BookService;
 //since we are creating rest api.
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.PutMapping;
+
 
 @RestController  
 public class BookController {
@@ -44,6 +46,13 @@ public class BookController {
 	@DeleteMapping("/books/{bookId}")
 	public void delBooks(@PathVariable("bookId") int bookId) {
 		this.bookService.deleteBook(bookId);
+	}
+	
+	// update book handler
+	@PutMapping("books/{bookId}")
+	public Books upBooks(@PathVariable("bookId") int bookId, @RequestBody Books book) {
+		this.bookService.updateBook(bookId, book);
+		return book;
 	}
 	
 }
