@@ -10,12 +10,15 @@ import org.springframework.web.bind.annotation.RestController;
 import com.api.book.entities.Books;
 import com.api.book.service.BookService;
 //since we are creating rest api.
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+
 @RestController  
 public class BookController {
 	
 	@Autowired
 	private BookService bookService;
-	
+		
 	@GetMapping("/books")
 	public List<Books> getBooks() {
 		return this.bookService.getAllBooks();
@@ -25,5 +28,11 @@ public class BookController {
 	public Books getBook(@PathVariable("id") int id) {
 		return bookService.getBookById(id);
 	}
-	//heloo
+	
+	@PostMapping("/books")
+	public Books postBooks(@RequestBody Books book) {
+		Books b = this.bookService.addBook(book);		
+		return b;
+	}
+	
 }

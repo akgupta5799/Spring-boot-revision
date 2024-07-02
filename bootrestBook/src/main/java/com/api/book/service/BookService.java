@@ -20,11 +20,16 @@ public class BookService {
 		return list;
 	}
 	
-	// get book by id
+	// get single book by id
 	public Books getBookById(int id) {
 		Books books = null;
 		books = list.stream().filter(e -> e.getId() == id).findFirst().get();
 		return books;
 	}
 	
+	// adding book
+	public Books addBook(Books b) {
+		list.add(b);
+		return b;
+	}
 }
