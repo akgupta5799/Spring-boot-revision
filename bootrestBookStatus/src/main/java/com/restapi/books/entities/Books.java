@@ -1,5 +1,7 @@
 package com.restapi.books.entities;
 
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -22,6 +24,7 @@ public class Books {
 	
 	
 	@OneToOne(cascade = CascadeType.ALL)
+	@JsonManagedReference
 	private Author author;
 	
 	public Books(int id, String title, Author author) {
